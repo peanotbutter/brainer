@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "packTitle": "Ohm's Law in Real Life",
+  "track": "Electronics",
+  "topic": "Ohm's law basics",
+  "lessons": [
+    {
+      "title": "Voltage, current, resistance",
+      "cards": [
+        { "type": "hook", "text": "Why does a 12 V car bulb burn out instantly on 230 V mains? One simple formula explains it." },
+        { "type": "concept", "title": "The three players", "text": "Voltage (V) is the push. Current (I, in amps) is the flow. Resistance (R, in ohms) is how hard the path resists the flow. More push means more flow; more resistance means less." },
+        { "type": "concept", "title": "The formula", "text": "V = I × R. Cover the one you want: I = V / R, R = V / I. That's Ohm's law, and you will use it constantly." },
+        { "type": "quiz", "question": "A 12 V battery is connected to a 6 Ω resistor. What current flows?", "choices": ["72 A", "0.5 A", "2 A", "6 A"], "answerIndex": 2, "explanation": "I = V / R = 12 / 6 = 2 A." },
+        { "type": "task", "text": "Find any power adapter at home and read its label. Note the output voltage and current." }
+      ]
+    },
+    {
+      "title": "Picking an LED resistor",
+      "cards": [
+        { "type": "hook", "text": "Connect an LED straight to a 9 V battery and it dies in a flash. A 30-cent resistor saves it." },
+        { "type": "concept", "title": "Drop the extra voltage", "text": "A red LED needs about 2 V and 20 mA. The resistor must 'eat' the rest: 9 V − 2 V = 7 V. R = 7 V / 0.02 A = 350 Ω. Use the next standard value up: 390 Ω." },
+        { "type": "example", "text": "On a 5 V USB supply: (5 − 2) / 0.02 = 150 Ω. A 220 Ω resistor works fine and is slightly dimmer and safer." },
+        { "type": "quiz", "question": "Why choose 390 Ω instead of exactly 350 Ω?", "choices": ["390 Ω is brighter", "It's the next standard value up, keeping current safely below the limit", "Resistors must be odd numbers", "350 Ω would give too little current"], "answerIndex": 1, "explanation": "Rounding up to a standard value keeps the current slightly lower, which protects the LED." },
+        { "type": "task", "text": "Calculate the resistor for a blue LED (3 V, 20 mA) on a 5 V supply." }
+      ]
+    }
+  ]
+}

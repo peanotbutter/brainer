@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Brainer</string>
+    <string name="title_activity_main">Brainer</string>
+    <string name="package_name">com.brainer.app</string>
+    <string name="custom_url_scheme">com.brainer.app</string>
+</resources>

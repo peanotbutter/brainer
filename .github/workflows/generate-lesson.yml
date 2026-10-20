@@ -1,0 +1,70 @@
+# Turns a "[Lesson] ..." issue (created from the Brainer app) into a lesson file.
+#
+# One-time setup: Settings -> Secrets and variables -> Actions -> New repository
+# secret, name ANTHROPIC_API_KEY. Only the repository owner can trigger this,
+# so strangers cannot spend your API credit.
+
+name: Generate lesson
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# One lesson at a time, so two requests never overwrite each other.
+concurrency:
+  group: generate-lesson
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: startsWith(github.event.issue.title, '[Lesson]') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Ask Claude to write the lesson
+        id: generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: node scripts/generate-lesson.mjs
+
+      - name: Save to GitHub
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "brainer-bot"
+          git config user.email "brainer-bot@users.noreply.github.com"
+          git add lessons/generated
+          git commit -m "Add lesson from issue #$ISSUE_NUMBER"
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"
+
+      - name: Tell the app it is ready
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          SUMMARY: ${{ steps.generate.outputs.summary }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "Done! Saved: $SUMMARY. Open Brainer and tap **You can download the lessons now**."
+          gh issue close "$ISSUE_NUMBER"
+
+      - name: Report a problem
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "Sorry, the lesson could not be generated. See the Actions log: $RUN_URL"

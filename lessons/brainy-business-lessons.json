@@ -1,0 +1,250 @@
+{
+  "schema": "brainy-lesson-pack/v1",
+  "pack_id": "business-mentor",
+  "pack_title": "Business Mentor: Earn More",
+  "category": "Business",
+  "language": "en",
+  "generated": "2026-10-17",
+  "lessons": [
+    {
+      "id": "biz-001",
+      "day": 1,
+      "date": "2026-10-09",
+      "week": 1,
+      "week_theme": "Know your numbers",
+      "title": "Day 1: True cost per unit",
+      "minutes": 17,
+      "illustration": {
+        "type": "svg",
+        "alt": "Iceberg: parts above water, hidden costs (delivery, labor, repairs, fees) below",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" font-family=\"sans-serif\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M0 70 H320\" stroke=\"#3B82F6\" stroke-dasharray=\"6 5\"/><path d=\"M120 70 L150 28 L175 45 L200 70 Z\" fill=\"#2E9E6B\" fill-opacity=\"0.25\"/><path d=\"M95 70 L225 70 L250 120 L215 165 L110 165 L75 120 Z\" fill=\"#3B82F6\" fill-opacity=\"0.15\"/><text x=\"160\" y=\"62\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">Parts</text><text x=\"160\" y=\"95\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">Delivery &amp; travel</text><text x=\"160\" y=\"112\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">Your labor hours</text><text x=\"160\" y=\"129\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">Repairs &amp; returns</text><text x=\"160\" y=\"146\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">Fees, tools, wires</text><text x=\"280\" y=\"40\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#2E9E6B\" stroke=\"none\">What you see</text><text x=\"285\" y=\"150\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#3B82F6\" stroke=\"none\">What it</text><text x=\"285\" y=\"164\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#3B82F6\" stroke=\"none\">really costs</text></svg>"
+      },
+      "sections": [
+        {
+          "type": "concept",
+          "heading": "Concept",
+          "minutes": 5,
+          "markdown": "Most small sellers price by adding up the parts and putting something on top. That's how you work hard and still end up with no money.\n\n**True cost = everything it takes to get one working unit to a happy client.**\n\nFor your pisowifi power supply, that's:\n\n- **Parts:** PV module, charge controller, battery, each buck-boost module, enclosure, breakers/fuses, wires, connectors, glands, screws\n- **Getting parts:** shipping fees, fare to Butuan/Bayugan to buy them\n- **Delivery & install:** fare, gas, food, half a day gone\n- **Your labor:** hours to build, test, install. Put a peso value on it, even if you \"don't pay yourself\"\n- **Small leaks:** GCash fees, cable ties, solder, tools that wear out, the module that arrived dead\n\n*Illustrative:* parts ₱5,000 + shipping ₱300 + delivery ₱400 + 4 hrs labor at ₱100/hr ₱400 + small stuff ₱200 = **₱6,300**, not ₱5,000. Sell at ₱6,500 and you think you made ₱1,500. You made ₱200.\n\n**The trap:** your labor feels free because no one hands you a payslip. It isn't free. Every hour on an underpriced unit is an hour not spent selling the next one."
+        },
+        {
+          "type": "task",
+          "heading": "Your task",
+          "minutes": 10,
+          "markdown": "Pick your **most common unit** and build its full cost sheet:\n\n1. List every part with the **real price you last paid** (not a guess).\n2. Add shipping and fare to buy parts, divided per unit.\n3. Add delivery/install cost for a typical client.\n4. Add your hours × a fair hourly rate.\n5. Add 3–5% for small leaks.\n\nWrite the final number big. That's your **true cost per unit**."
+        },
+        {
+          "type": "check",
+          "heading": "Check",
+          "minutes": 2,
+          "question": "You built a unit in 4 hours and didn't pay anyone. Why should those 4 hours still be in your cost?",
+          "answer": "Because your time has a value. If you leave it out, your price only covers parts, and growing (or hiring a helper later) becomes impossible — the helper's pay would come straight out of a profit you never really had."
+        },
+        {
+          "type": "challenge",
+          "heading": "Mentor challenge",
+          "markdown": "If your 'cost' is just the parts receipt, you don't know your cost. Send me your cost sheet and I'll find what you missed."
+        }
+      ]
+    },
+    {
+      "id": "biz-002",
+      "day": 2,
+      "date": "2026-10-12",
+      "week": 1,
+      "week_theme": "Know your numbers",
+      "title": "Day 2: Margin & pricing: distance, discounts, and \"mahal\"",
+      "minutes": 17,
+      "illustration": {
+        "type": "svg",
+        "alt": "Concentric delivery zones around your shop: farther zones add a travel fee",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" font-family=\"sans-serif\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"110\" cy=\"95\" r=\"78\" fill=\"#D9534F\" fill-opacity=\"0.10\"/><circle cx=\"110\" cy=\"95\" r=\"52\" fill=\"#E0A526\" fill-opacity=\"0.18\"/><circle cx=\"110\" cy=\"95\" r=\"26\" fill=\"#2E9E6B\" fill-opacity=\"0.30\"/><path d=\"M104 95 l6 -8 l6 8 v8 h-12 z\" fill=\"currentColor\"/><text x=\"110\" y=\"116\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"110\" y=\"60\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"110\" y=\"33\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"255\" y=\"60\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#2E9E6B\" stroke=\"none\">Zone A: ₱0 add-on</text><text x=\"255\" y=\"90\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#E0A526\" stroke=\"none\">Zone B: + travel fee</text><text x=\"255\" y=\"120\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#D9534F\" stroke=\"none\">Zone C: + fare + time</text><text x=\"255\" y=\"155\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">Farther = cost more</text></svg>"
+      },
+      "sections": [
+        {
+          "type": "concept",
+          "heading": "Concept",
+          "minutes": 5,
+          "markdown": "**Quick recap:** margin is profit ÷ price (not ÷ cost). Price = Cost ÷ (1 − target margin). Floor price = cost ÷ 0.70. Target price = cost ÷ 0.60.\n\nNow the parts that quietly break that formula.\n\n**1. Distance eats margin.**\nA unit delivered in Sibagat and one delivered 2 hours into the mountains do not cost the same. Same price = the far client is paid for by your margin.\nFix: **delivery zones.** Zone A (near) included. Zone B adds a travel fee. Zone C adds fare + your time. Publish it so it feels fair, not random.\n\n**2. Discounts hit profit, not price.**\n*Illustrative:* cost ₱6,000, price ₱10,000 → profit ₱4,000. A ₱1,000 discount is 10% off the price, but it's **25% of your profit** gone. Before saying yes, ask: \"What am I getting for this?\" (cash upfront, a referral, a photo + testimonial).\n\n**3. When they say \"mahal\".**\nDon't drop the price. Make the cost of *not* buying visible:\n\"How many hours a week is your pisowifi off during brownouts? How much do you usually earn per hour?\"\nThen: \"This pays for itself in about __ months.\" If they still can't afford it, offer a **smaller tier**, not a cheaper version of the same thing."
+        },
+        {
+          "type": "task",
+          "heading": "Your task",
+          "minutes": 10,
+          "markdown": "1. Draw your 3 delivery zones (barangays in each).\n2. Set a peso add-on for Zone B and C using real fare + your time.\n3. Write your **one-sentence reply to \"mahal\"** using downtime in pesos.\n4. Decide your discount rule: what must a client give you to get one?"
+        },
+        {
+          "type": "check",
+          "heading": "Check",
+          "minutes": 2,
+          "question": "Your profit on a unit is ₱3,000. A client asks for ₱500 off. What % of your profit are you giving away?",
+          "answer": "₱500 ÷ ₱3,000 ≈ 17% of your profit — even though it's a much smaller % of the price."
+        },
+        {
+          "type": "challenge",
+          "heading": "Mentor challenge",
+          "markdown": "If you've ever discounted just because the client looked unhappy, you weren't negotiating — you were paying them. Reply with your zones and your \"mahal\" line."
+        }
+      ]
+    },
+    {
+      "id": "biz-003",
+      "day": 3,
+      "date": "2026-10-13",
+      "week": 1,
+      "week_theme": "Know your numbers",
+      "title": "Day 3: Warranty reserve",
+      "minutes": 17,
+      "illustration": {
+        "type": "svg",
+        "alt": "A jar collecting pesos from each sale, used to fix failed units",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" font-family=\"sans-serif\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M115 40 h90 v10 q15 10 15 30 v70 q0 15 -15 15 h-90 q-15 0 -15 -15 v-70 q0 -20 15 -30 z\"/><path d=\"M102 110 h116 v40 q0 13 -13 13 h-90 q-13 0 -13 -13 z\" fill=\"#2E9E6B\" fill-opacity=\"0.35\" stroke=\"none\"/><text x=\"160\" y=\"140\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">Repair fund</text><circle cx=\"40\" cy=\"60\" r=\"9\" fill=\"#E0A526\" fill-opacity=\"0.6\"/><circle cx=\"60\" cy=\"90\" r=\"9\" fill=\"#E0A526\" fill-opacity=\"0.6\"/><circle cx=\"40\" cy=\"120\" r=\"9\" fill=\"#E0A526\" fill-opacity=\"0.6\"/><path d=\"M75 90 h20\" marker-end=\"none\"/><path d=\"M88 84 l7 6 l-7 6\"/><text x=\"48\" y=\"150\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">₱ per unit sold</text><path d=\"M230 120 h25\"/><path d=\"M248 114 l7 6 l-7 6\"/><text x=\"285\" y=\"112\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">Fixes a failed</text><text x=\"285\" y=\"127\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">unit without</text><text x=\"285\" y=\"142\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">killing profit</text></svg>"
+      },
+      "sections": [
+        {
+          "type": "concept",
+          "heading": "Concept",
+          "minutes": 5,
+          "markdown": "Every unit you sell has a hidden bill coming: a converter that dies, a battery that weakens, a trip back to a far barangay.\n\nIf you promise \"1 year warranty\" and don't set money aside, **you're borrowing from future you.** One bad month of returns can wipe out several months of profit.\n\n**Warranty reserve = a fixed amount you set aside from every sale, only for repairs.**\n\nHow to estimate it:\n\n1. Count units sold and how many came back (or needed a visit).\n2. Average cost per repair: parts + fare + your time.\n3. Reserve per unit = (repairs ÷ units sold) × average repair cost, plus a safety buffer.\n\n*Illustrative:* 16 units, 3 repairs, avg ₱1,200 each → ₱3,600 ÷ 16 = ₱225 per unit. Add a buffer → **reserve ₱300/unit**.\n\nThen actually move that money to a separate GCash wallet or envelope. A reserve that lives in your normal wallet gets spent.\n\n**Watch out:** batteries age. Year 2 failures are higher than year 1. If your warranty covers the battery, your reserve must too — or exclude it clearly in writing."
+        },
+        {
+          "type": "task",
+          "heading": "Your task",
+          "minutes": 10,
+          "markdown": "1. List every repair, callback, or replacement since client #1.\n2. Write the real cost of each (parts + fare + hours).\n3. Compute your reserve per unit.\n4. Write your warranty in 3 lines: what's covered, how long, what's **not** covered (lightning, flooding, client tampering, battery after X months)."
+        },
+        {
+          "type": "check",
+          "heading": "Check",
+          "minutes": 2,
+          "question": "Why is \"I'll just fix it when it breaks\" more dangerous for you than for a big company?",
+          "answer": "Because you have no cash cushion. Two or three failures in the same month (often after a storm or heat wave) can use up all your profit at once. A reserve spreads that cost across every sale."
+        },
+        {
+          "type": "challenge",
+          "heading": "Mentor challenge",
+          "markdown": "If you've never counted your callbacks, you don't know if your product is reliable — you're hoping. Send me your repair list, even if it's embarrassing."
+        }
+      ]
+    },
+    {
+      "id": "biz-004",
+      "day": 4,
+      "date": "2026-10-14",
+      "week": 1,
+      "week_theme": "Know your numbers",
+      "title": "Day 4: Price tiers: basic vs with battery",
+      "minutes": 17,
+      "illustration": {
+        "type": "svg",
+        "alt": "Three tiers of increasing price: Basic, plus Battery, plus Solar",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" font-family=\"sans-serif\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"35\" y=\"105\" width=\"70\" height=\"55\" rx=\"6\" fill=\"#3B82F6\" fill-opacity=\"0.2\"/><rect x=\"125\" y=\"70\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#2E9E6B\" fill-opacity=\"0.3\"/><rect x=\"215\" y=\"40\" width=\"70\" height=\"120\" rx=\"6\" fill=\"#E0A526\" fill-opacity=\"0.3\"/><text x=\"70\" y=\"135\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">Basic</text><text x=\"70\" y=\"98\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">₱</text><text x=\"160\" y=\"115\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">+ Battery</text><text x=\"160\" y=\"63\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">₱₱</text><text x=\"250\" y=\"95\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">+ Solar</text><text x=\"250\" y=\"33\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">₱₱₱</text><text x=\"160\" y=\"176\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">Each tier must clear your floor margin</text><text x=\"160\" y=\"14\" font-size=\"1\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\"></text></svg>"
+      },
+      "sections": [
+        {
+          "type": "concept",
+          "heading": "Concept",
+          "minutes": 5,
+          "markdown": "One product, one price = you lose clients who can't afford it **and** leave money on the table with clients who'd pay more.\n\n**Tiers** let the client choose how much protection they want.\n\nA simple setup for you:\n\n- **Basic** — enclosure, protection, buck-boost modules for each device voltage, ready for the client's own battery or grid. Lowest price, smallest runtime promise.\n- **With battery** — the full backup: battery sized for a stated runtime (e.g. \"about 4 hours\"). Your main seller.\n- **With solar** — adds PV + charge controller so it recharges during long daytime brownouts. Your highest margin, and a bridge to CleanGen jobs.\n\nRules that keep tiers honest:\n\n1. **Every tier must clear your floor price** (cost ÷ 0.70). No \"loss leader\" tier.\n2. **Name tiers by result, not parts.** \"Up to 4 hrs backup\" beats \"100Ah battery.\"\n3. **Make the middle tier the obvious pick.** Most people avoid the cheapest and the most expensive.\n4. **Upgrade path:** a Basic client should be able to add battery or solar later without you rebuilding the box."
+        },
+        {
+          "type": "task",
+          "heading": "Your task",
+          "minutes": 10,
+          "markdown": "Write a 3-row tier table:\n\n| Tier | What's inside | Runtime / result | True cost | Price |\n\nUse your Day 1 cost sheet. Check every price is above cost ÷ 0.70. If one isn't, change what's inside — not the margin."
+        },
+        {
+          "type": "check",
+          "heading": "Check",
+          "minutes": 2,
+          "question": "Why name a tier \"Up to 4 hours backup\" instead of \"12V 100Ah battery\"?",
+          "answer": "Clients buy the result (internet stays on, coins keep coming), not the part. Results are easy to compare and value; battery specs make them shop around for cheaper batteries."
+        },
+        {
+          "type": "challenge",
+          "heading": "Mentor challenge",
+          "markdown": "If your 'basic' tier is just your normal unit at a lower price, that's a discount, not a tier. Send me your table."
+        }
+      ]
+    },
+    {
+      "id": "biz-005",
+      "day": 5,
+      "date": "2026-10-15",
+      "week": 1,
+      "week_theme": "Know your numbers",
+      "title": "Day 5: Review: is every sale actually profitable?",
+      "minutes": 17,
+      "illustration": {
+        "type": "svg",
+        "alt": "16 client dots colored green for profit, amber for barely, red for loss (illustrative)",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" font-family=\"sans-serif\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><text x=\"160\" y=\"28\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">16 sales — which ones made money?</text><circle cx=\"60\" cy=\"60\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"60\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">1</text><circle cx=\"88\" cy=\"60\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"88\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">2</text><circle cx=\"116\" cy=\"60\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"116\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">3</text><circle cx=\"144\" cy=\"60\" r=\"11\" fill=\"#D9534F\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"144\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">4</text><circle cx=\"172\" cy=\"60\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"172\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">5</text><circle cx=\"200\" cy=\"60\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"200\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">6</text><circle cx=\"228\" cy=\"60\" r=\"11\" fill=\"#E0A526\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"228\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">7</text><circle cx=\"256\" cy=\"60\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"256\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">8</text><circle cx=\"60\" cy=\"100\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"60\" y=\"104\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">9</text><circle cx=\"88\" cy=\"100\" r=\"11\" fill=\"#D9534F\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"88\" y=\"104\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">10</text><circle cx=\"116\" cy=\"100\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"116\" y=\"104\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">11</text><circle cx=\"144\" cy=\"100\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"144\" y=\"104\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">12</text><circle cx=\"172\" cy=\"100\" r=\"11\" fill=\"#E0A526\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"172\" y=\"104\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">13</text><circle cx=\"200\" cy=\"100\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"200\" y=\"104\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">14</text><circle cx=\"228\" cy=\"100\" r=\"11\" fill=\"#D9534F\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"228\" y=\"104\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">15</text><circle cx=\"256\" cy=\"100\" r=\"11\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"256\" y=\"104\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">16</text><circle cx=\"70\" cy=\"150\" r=\"7\" fill=\"#2E9E6B\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"82\" y=\"154\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">profit</text><circle cx=\"140\" cy=\"150\" r=\"7\" fill=\"#E0A526\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"152\" y=\"154\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">barely</text><circle cx=\"215\" cy=\"150\" r=\"7\" fill=\"#D9534F\" fill-opacity=\"0.55\" stroke=\"none\"/><text x=\"227\" y=\"154\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">loss</text><text x=\"160\" y=\"174\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">(illustrative)</text></svg>"
+      },
+      "sections": [
+        {
+          "type": "concept",
+          "heading": "Concept",
+          "minutes": 5,
+          "markdown": "This week you built 4 tools: true cost, margin & zones, warranty reserve, and tiers. Today you point them backwards at the **16 sales you already made.**\n\nFor each client, **real profit** =\n\nprice paid\n− parts (at what you actually paid then)\n− delivery & install trip\n− your hours × your rate\n− repairs/callbacks since\n− warranty reserve still owed\n\nMost small builders who do this find a pattern like (illustrative): most sales fine, a couple barely break even, one or two **lost money** — usually the far ones, the discounted ones, or the \"custom\" ones.\n\nThat pattern tells you exactly what to fix:\n\n- Losses from distance → zones (Day 2)\n- Losses from discounts → discount rule (Day 2)\n- Losses from repairs → reserve + reliability (Week 3)\n- Losses from custom builds → standard models (Week 3)\n\n**Be careful:** don't skip the ugly ones. The sale you're least proud of teaches you the most."
+        },
+        {
+          "type": "task",
+          "heading": "Your task",
+          "minutes": 10,
+          "markdown": "Make a 16-row table:\n\n| Client | Price | Parts | Delivery | Hours | Repairs | Profit | Margin % |\n\nColor each row: green (≥30% margin), amber (0–30%), red (loss). Count each color. Then write **one rule** you'll follow from now on because of the reds."
+        },
+        {
+          "type": "check",
+          "heading": "Check",
+          "minutes": 2,
+          "question": "A client paid your highest price but is 3 hours away and needed 2 repair trips. Could that be your least profitable client? Why?",
+          "answer": "Yes. A high price can be swallowed by travel and repeat visits. Profit comes from price minus all costs, and distance plus callbacks are some of your biggest costs."
+        },
+        {
+          "type": "challenge",
+          "heading": "Mentor challenge",
+          "markdown": "If all 16 rows come out green on the first try, check again — you probably left out your time or your trips. Send me your color count."
+        }
+      ]
+    },
+    {
+      "id": "biz-006",
+      "day": 6,
+      "date": "2026-10-16",
+      "week": 2,
+      "week_theme": "Sell more units",
+      "title": "Day 6: Where pisowifi owners actually hang out",
+      "minutes": 17,
+      "illustration": {
+        "type": "svg",
+        "alt": "You in the center connected to four watering holes: FB groups, vendors and installers, brownout areas, your 16 clients",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" font-family=\"sans-serif\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"160\" cy=\"92\" r=\"20\" fill=\"currentColor\" fill-opacity=\"0.12\"/><text x=\"160\" y=\"96\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">You</text><circle cx=\"65\" cy=\"45\" r=\"30\" fill=\"#3B82F6\" fill-opacity=\"0.2\"/><text x=\"65\" y=\"42\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">FB</text><text x=\"65\" y=\"56\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">groups</text><circle cx=\"255\" cy=\"45\" r=\"30\" fill=\"#E0A526\" fill-opacity=\"0.25\"/><text x=\"255\" y=\"42\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">Vendors &amp;</text><text x=\"255\" y=\"56\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">installers</text><circle cx=\"65\" cy=\"140\" r=\"30\" fill=\"#D9534F\" fill-opacity=\"0.18\"/><text x=\"65\" y=\"137\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">Brownout</text><text x=\"65\" y=\"151\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">areas</text><circle cx=\"255\" cy=\"140\" r=\"30\" fill=\"#2E9E6B\" fill-opacity=\"0.28\"/><text x=\"255\" y=\"137\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"currentColor\" stroke=\"none\">Your 16</text><text x=\"255\" y=\"151\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"currentColor\" stroke=\"none\">clients</text><path d=\"M142 82 L92 58\"/><path d=\"M178 82 L228 58\"/><path d=\"M142 102 L92 128\"/><path d=\"M178 102 L228 128\"/></svg>"
+      },
+      "sections": [
+        {
+          "type": "concept",
+          "heading": "Concept",
+          "minutes": 5,
+          "markdown": "Last week you learned your numbers. This week we use them to find more buyers.\n\nMost small sellers market to \"everyone with pisowifi.\" That's no one. You want the **few places where many owners already gather**, so one post, one visit, or one partner reaches 20+ prospects at once.\n\nThink in 4 types of \"watering holes\":\n\n**1. Online groups**\nFB groups for pisowifi owners/operators, local buy-and-sell groups (Sibagat, Bayugan, San Francisco, Butuan), and Starlink/ISP user groups. Owners go there when something breaks. That's your moment.\n\n**2. People who sell to them**\nCoin-slot machine sellers, pisowifi board/router resellers, Starlink installers, electronics shops. They meet new owners *before* the first brownout. One friendly vendor can beat 100 FB posts.\n\n**3. Places where pain shows**\nAreas with the worst brownouts. A pisowifi that's offline every evening is a hot lead. Walk or ride through these barangays and you can literally spot them (the signages, the coin boxes in sari-sari stores).\n\n**4. Your 16 clients**\nThis is the one you're probably skipping. Each client knows other owners — cousins, neighbors, the guy in the next purok. Your best map of the market is *how you got those 16*.\n\n**The honest part:** if you can't say where your 16 clients came from, you don't have a sales channel. You have luck. Luck doesn't scale."
+        },
+        {
+          "type": "task",
+          "heading": "Your task",
+          "minutes": 10,
+          "markdown": "1. List your 16 clients. Next to each, write **how they found you** (FB post, referral, walk-in, vendor, someone you know). Count which source wins.\n2. Write down **10 specific watering holes** — real names, not categories. Example format:\n   - \"FB group: ___ (members: ___)\"\n   - \"Vendor: ___ shop, Bayugan — sells coin-slot units\"\n   - \"Barangay ___ — 4+ pisowifi I've seen, frequent brownouts\"\n3. Circle the **top 2** where one action could reach the most owners. You'll use those next week."
+        },
+        {
+          "type": "check",
+          "heading": "Check",
+          "minutes": 2,
+          "question": "A vendor who sells 15 pisowifi machines a month vs. a FB group with 8,000 members. Which is the better watering hole for you, and why? (Hint: think about timing and trust, not size.)",
+          "answer": "Usually the vendor. They meet owners at the exact moment of buying, and the owner already trusts them. Most of the 8,000 FB members aren't owners, aren't buying now, and don't know you."
+        },
+        {
+          "type": "challenge",
+          "heading": "Mentor challenge",
+          "markdown": "If more than half your 16 came from people you already knew, admit it: you haven't sold to a stranger yet at scale. That's not a failure — it's the real job for this week. Send your source count and your top 2 watering holes."
+        }
+      ]
+    }
+  ]
+}
